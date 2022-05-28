@@ -1,0 +1,24 @@
+Task0:
+This function is constant so it big o O(1)
+
+Task1:
+There are two loop but no nest so big o is 2n => O(n)
+
+Task2:
+There are two loop, one go through all of list of calls, next one to find the longest phone all
+So 2n => O(n)
+
+Task3:
+Part A
+There are two nested loop (n^2)
+Loop to print out put (n)
+Loop sort (nlogn)
+=> big o is n^2 + nlogn + n
+
+Part B
+Only one loop so big O is n
+
+Big O is n^2 + nlogn + n + n = n^2 + 2n
+
+Task4
+There are three loop no nest so big o is 3n => O(n)

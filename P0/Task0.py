@@ -3,6 +3,7 @@ Read file into texts and calls.
 It's ok if you don't understand how to read files.
 """
 import csv
+from subprocess import call
 with open('texts.csv', 'r') as f:
     reader = csv.reader(f)
     texts = list(reader)
@@ -21,4 +22,4 @@ Print messages:
 """
 
 print("First record of texts, " + texts[0][0] + " texts " + texts[0][1] + " at time "+ texts[0][2])
-print("Last record of calls, " + calls[-1][0] + " calls " + calls[-1][1] + " at time "+ calls[-1][2])
+print("Last record of calls, " + calls[-1][0] + " calls " + calls[-1][1] + " at time "+ calls[-1][2] + ", lasting " + calls[-1][3] + " seconds")
